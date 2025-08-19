@@ -3,16 +3,20 @@ class Main {
 
     //Use the // to create single line comments to either add info or to take out code for debugging
 
-    System.out.println("Hello world!");
+    System.out.println("Hello world!");//prints the words "Hello world"
 
     //We will be using System.out.println and System.out.print throughout the year. Try using both below to see what the difference is!
 
+    System.out.println("I am "+15+" years old");
+    System.out.print("wassup ");
+    System.out.print("y'all");
+
+
+   
 
 
 
-
-
-    //ANSWER: 
+    //ANSWER: ln makes the next print be below it
 
 
 
@@ -25,23 +29,24 @@ class Main {
     //For AP we need to know: int, double, boolean
 
     //List examples of the types below and give definition
-    //int (integer): 
-    //double:
-    //boolean:
+    //int (integer): numbers with no decimals
+    //double: numbers with decimals
+    //boolean: true/false
 
     //For now we are just going to work with primitive
 
     //Create 3 variables of each of the above types (USE GOOD CODING PRACTICE WHEN CREATING THE VARIABLES
 
-  int apples=2;
-  int oranges=4;
-  int grapes=6;
-  double pounds=3.2;
-  double ounces=16.6;
-  double grams=123.4;
+    int apples=2;
+    int oranges=4;
+    int grapes=6;
+    double pounds=3.2;
+    double ounces=16.6;
+    double grams=123.4;
     boolean alive=false;
     boolean asleep=true;
     boolean hungry=true;
+
 
 
 
@@ -58,6 +63,15 @@ class Main {
     //Create codes that will print the following:
 
     //Odd integers from 1 to 100, inclusive of both
+    for(int k=0; k<100; k++){
+      if(k%2==1){
+        System.out.println(k);
+      }
+      else{
+        continue;
+      }
+    }
+  
 
 
 
